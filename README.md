@@ -4,7 +4,7 @@ To use twitch chat window directly without any third-party software
 
 Solution works for Twitch chat only.
 
-Please follow instructions below to get transparent chat wodget in your OBS translation without third party software:
+Please follow instructions below to get transparent chat widget in your OBS translation without third party software:
 
 1. Get your embedable chat window URL: 
   ```
