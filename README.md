@@ -25,7 +25,7 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 	--text-color: white;
 	--text-stroke-color: black;
 	--text-stroke-size: 1px;
-	--text-size: 2rem;
+	--text-size: 4rem;
 
 	background: transparent !important;
 
