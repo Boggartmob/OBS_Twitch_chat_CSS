@@ -77,9 +77,9 @@ Please note very last available font will apply to chat window. Windows default 
 
 7. You can adjust font size changing following variable:
 ```css
---text-size: 2rem;
+--text-size: 4rem;
 ```
-Replace `2rem` with `<NUMBER>rem` including floats like `2.5rem`. `1rem` is default twitch defined font size. Pixel sizes also available: `--text-size: 24px;`
+Replace `4rem` with `<NUMBER>rem` including floats like `2.5rem`. `1rem` is default twitch defined font size. Pixel sizes also available: `--text-size: 24px;`
 
 7. You can adjust font color changing following variable:
 ```css
