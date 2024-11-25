@@ -31,7 +31,7 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 
 	font-family: "Calibri" !important;
 	/* font-family: "Segoe Print" !important; */
-	font-family: "Comic Sans MS" !important;
+	/* font-family: "Comic Sans MS" !important; */
 }
 
 .text-fragment, .chat-line__message-container * {
