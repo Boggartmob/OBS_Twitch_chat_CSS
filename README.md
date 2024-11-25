@@ -22,15 +22,26 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 
 ```css
 * {
+	--text-color: white;
+	--text-stroke-color: black;
+	--text-stroke-size: 1px;
+	--text-size: 2rem;
+
 	background: transparent !important;
 
 	font-family: "Calibri" !important;
 	/* font-family: "Segoe Print" !important; */
-	/* font-family: "Comic Sans MS" !important; */
+	font-family: "Comic Sans MS" !important;
 }
 
-.chat-line__message-container * {
-	font-size: 2rem !important;
+.text-fragment, .chat-line__message-container * {
+	font-size: var(--text-size);
+
+	color: var(--text-color) !important;
+
+	-webkit-text-fill-color: var(--text-color);
+  -webkit-text-stroke-width: var(--text-stroke-size);
+  -webkit-text-stroke-color: var(--text-stroke-color);
 }
 
 .stream-chat-header, #chat-room-header-label, .chat-input {
@@ -40,10 +51,6 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 .chat-scrollable-area__message-container {
 	font-size: 3em !important;
 	line-height: 1.5em;
-}
-
-.text-fragment {
-	color: white !important;
 }
 
 div[data-a-target="chat-welcome-message"], div[data-a-target="moderation-action"], .chat-line__status {
@@ -68,12 +75,16 @@ font-family: "FONT NAME HERE" !important;
 ```
 Please note very last available font will apply to chat window. Windows default fonts list could be found here: https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
 
-7. You can adjust font size changing following part of css:
+7. You can adjust font size changing following variable:
 ```css
-.chat-line__message-container * {
-	font-size: 2rem !important;
-}
+--text-size: 2rem;
 ```
-Replace `2rem` with `<NUMBER>rem` including floats like `2.5rem`. `1rem` is default twitch defined font size.
+Replace `2rem` with `<NUMBER>rem` including floats like `2.5rem`. `1rem` is default twitch defined font size. Pixel sizes also available: `--text-size: 24px;`
+
+7. You can adjust font color changing following variable:
+```css
+--text-color: white;
+```
+Replace `white` with any color you want including hex notation like `--text-color: #FF00FF;`
 
 #OBS #chat #widget #transparent #css #transparentchat #chatcss #obschatwidget
