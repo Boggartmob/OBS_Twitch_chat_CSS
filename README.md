@@ -40,8 +40,8 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 	color: var(--text-color) !important;
 
 	-webkit-text-fill-color: var(--text-color);
-  -webkit-text-stroke-width: var(--text-stroke-size);
-  -webkit-text-stroke-color: var(--text-stroke-color);
+	-webkit-text-stroke-width: var(--text-stroke-size);
+	-webkit-text-stroke-color: var(--text-stroke-color);
 }
 
 .stream-chat-header, #chat-room-header-label, .chat-input {
