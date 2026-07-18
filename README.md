@@ -34,7 +34,7 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 	/* font-family: "Comic Sans MS" !important; */
 }
 
-.text-fragment, .chat-line__message-container * {
+.text-fragment, .chat-line__message-container .REMOVE-IF-WANT-FULL-WHITE-MESSAGE * {
 	font-size: var(--text-size);
 
 	color: var(--text-color) !important;
@@ -90,5 +90,7 @@ Replace `4rem` with `<NUMBER>rem` including floats like `2.5rem`. `1rem` is defa
 --text-color: white;
 ```
 Replace `white` with any color you want including hex notation like `--text-color: #FF00FF;`
+
+8. You can make message line completely white including user name by removing `.REMOVE-IF-WANT-FULL-WHITE-MESSAGE` fake class which preventing css rule to affect whole chat line. Make sure `*` symbol stays in palce! It should be `.text-fragment, .chat-line__message-container *`.
 
 #OBS #chat #widget #transparent #css #transparentchat #chatcss #obschatwidget
