@@ -93,4 +93,6 @@ Replace `white` with any color you want including hex notation like `--text-colo
 
 8. You can make message line completely white including user name by removing `.REMOVE-IF-WANT-FULL-WHITE-MESSAGE` fake class which preventing css rule to affect whole chat line. Make sure `*` symbol stays in palce! It should be `.text-fragment, .chat-line__message-container *`.
 
+9. [Follow me on twitch](https://www.twitch.tv/boggartmob) if this repo was helpful. Thanks!
+
 #OBS #chat #widget #transparent #css #transparentchat #chatcss #obschatwidget
