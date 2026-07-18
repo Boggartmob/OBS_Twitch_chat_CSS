@@ -56,6 +56,10 @@ Please follow instructions below to get transparent chat widget in your OBS tran
 div[data-a-target="chat-welcome-message"], div[data-a-target="moderation-action"], .chat-line__status {
 	display: none;
 }
+
+.chat-room__content>div:first-child {
+	display: none !important;
+}
 ```
 
 <img src="https://user-images.githubusercontent.com/495081/233375038-1d297fc0-3729-45f9-ada2-865ae552fcfa.png" width="75%"/>
